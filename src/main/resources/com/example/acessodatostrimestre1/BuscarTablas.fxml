@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" prefHeight="286.0" prefWidth="405.0" spacing="20.0" styleClass="VBox" stylesheets="@BuscarTablas.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.acessodatostrimestre1.BuscarTablas">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+         <children>
+              <ComboBox fx:id="comboBoxTablas" promptText="Seleccione una tabla" styleClass="combo-box" />
+         </children>
+      </VBox>
+        <Label fx:id="error" style="-fx-text-fill: red; -fx-font-weight: bold; -fx-background-radius: 5; -fx-background-color: linear-gradient(to right, rgba(255,255,255,0.5), rgba(255,255,255,0.0)); -fx-font-size: 24;" text="" />
+        <Button fx:id="siguiente" onAction="#siguiente" styleClass="Button" text="Siguiente">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin></Button>
+    </children>
+</VBox>

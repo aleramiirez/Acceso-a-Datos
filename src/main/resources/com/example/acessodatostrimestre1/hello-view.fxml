@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" minWidth="250.0" prefHeight="257.0" prefWidth="255.0" spacing="20.0" style="-fx-padding: 20;" styleClass="VBox" stylesheets="@login.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.acessodatostrimestre1.Login">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+       <Label styleClass="Label" stylesheets="@login.css" text="NORTHWIND" />
+       <Label fx:id="error" text="" />
+      <Label text="Inicio Sesión:" />
+      <TextField styleClass="text" fx:id="login" prefHeight="26.0" prefWidth="112.0" />
+      <Label text="Contraseña:" />
+      <PasswordField styleClass="text" fx:id="password" prefHeight="26.0" prefWidth="113.0" />
+      <Button styleClass="Button" mnemonicParsing="false" onAction="#enter" prefHeight="26.0" prefWidth="117.0" text="Entrar">
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin></Button>
+   </children>
+</VBox>

@@ -1,0 +1,32 @@
+.VBox {
+    -fx-background-color: skyBlue;
+}
+
+.Label {
+    -fx-text-fill: #1E90FF;
+    -fx-effect: dropshadow(three-pass-box, #1E90FF, 10, 0, 0, 0);
+    -fx-font-family: serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+}
+
+.Button {
+     -fx-background-color: #00416A;
+     -fx-border-color: #1E90FF;
+     -fx-border-width: 2;
+     -fx-text-fill: #1E90FF;
+     -fx-font-size: 16px;
+     -fx-font-weight: bold;
+     -fx-background-radius: 40;
+     -fx-border-radius: 40;
+}
+
+.Button:hover {
+    -fx-background-color: #1E90FF;
+    -fx-text-fill: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, #1E90FF, 10, 0, 0, 0);
+}
+
+.text {
+     -fx-background-radius: 40;
+}

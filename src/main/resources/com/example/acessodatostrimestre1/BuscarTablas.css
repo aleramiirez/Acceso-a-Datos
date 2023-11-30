@@ -1,0 +1,30 @@
+.VBox {
+     -fx-background-image: url("descarga.png");
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center;
+}
+
+.combo-box {
+    -fx-border-color: #1E90FF, #00416A; /* Color de la sombra */
+    -fx-border-width: 2px; /* Ancho de los bordes */
+    -fx-border-radius: 5px; /* Radio de los bordes */
+    -fx-background-color: #FFFFFF; /* Color de fondo del ComboBox */
+    -fx-padding: 5px; /* Espaciado interno del ComboBox */
+}
+
+.Button {
+     -fx-background-color: #00416A;
+     -fx-border-color: #1E90FF;
+     -fx-border-width: 2;
+     -fx-text-fill: #1E90FF;
+     -fx-font-size: 16px;
+     -fx-font-weight: bold;
+     -fx-background-radius: 40;
+     -fx-border-radius: 40;
+}
+
+.Button:hover {
+    -fx-background-color: #1E90FF;
+    -fx-text-fill: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, #1E90FF, 10, 0, 0, 0);
+}
